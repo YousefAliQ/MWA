@@ -9,7 +9,7 @@ const { fromFetch } = rxjs.fetch;
 
 // converted from event handler to Observable 
 const eventObs$ = fromEvent(quoteInputElement, 'input');
-eventObs$.subscribe(e => {
+eventObs$.subscribe(_ => {
   const arrayQuote = quoteDisplayElement.querySelectorAll('span')
   const arrayValue = quoteInputElement.value.split('')
 
