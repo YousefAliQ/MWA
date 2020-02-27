@@ -23,3 +23,5 @@ Solve this question in three different ways and inspect the loading time in the 
 * Use `readFile`
 * Use streams API
 
+I noticed that readFileSync is very fast comparing to others. But that does not mean its good for Scalability because it used all resources to serve my request and this is bad practise. We have to use streaming to avoid blocking the process and use pipe to avoid bottleneck problem. 
+
