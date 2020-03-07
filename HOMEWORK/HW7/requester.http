@@ -1,0 +1,29 @@
+
+# DELETE http://localhost:3000/lectures/course=CS390 HTTP/2
+# content-type: application/json
+
+# --------------------------------------------------
+
+# POST http://localhost:3000/lectures HTTP/2
+# content-type: application/json
+
+# {"name": "Yousef Ali", "course": "CS390"}
+# --------------------------------------------------
+
+# GET http://localhost:3000/lectures/search/course=CS572 HTTP/2
+# content-type: application/json
+
+# --------------------------------------------------
+
+
+# GET http://localhost:3000/lectures/findone/course=CS572 HTTP/2
+# content-type: application/json
+
+# --------------------------------------------------
+
+
+
+
+
+
+

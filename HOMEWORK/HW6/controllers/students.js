@@ -44,7 +44,7 @@ module.exports.addStudent = function (req, res) {
     }
     //res.json({ fileUrl: 'http://192.168.0.7:3000/images/' + req.file.filename });
 
-    res.json({ id: req.body.id, result: true });
+    res.json(req.body);
 
 }
 

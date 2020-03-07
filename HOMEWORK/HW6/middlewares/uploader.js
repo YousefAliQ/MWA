@@ -1,15 +1,15 @@
 const multer  = require('multer')
 
 const storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-      cb(null, './assets/pics/')
+    destination: function (req, file, callback) {
+      callback(null, './assets/pics/')
     },
-    filename: function (req, file, cb) {
+    filename: function (req, file, callback) {
         let filetype = '';
         if(file.mimetype === 'image/jpeg') {
             filetype = 'jpg';
-          }
-      cb(null, Math.floor(new Date() / 1000) + '.' + filetype )
+        }
+        callback(null, Math.floor(new Date() / 1000) + '.' + filetype )
     }
   })
    

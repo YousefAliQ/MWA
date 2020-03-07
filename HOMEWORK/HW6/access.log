@@ -16,3 +16,4 @@
 ::1 - - [01/Mar/2020:08:58:36 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "http://localhost:3000/pics/1583051337.jpg" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36"
 ::ffff:127.0.0.1 - - [01/Mar/2020:09:00:31 +0000] "POST /students HTTP/1.1" 200 15 "-" "vscode-restclient"
 ::ffff:127.0.0.1 - - [01/Mar/2020:09:00:53 +0000] "POST /students HTTP/1.1" 200 15 "-" "vscode-restclient"
+::1 - - [03/Mar/2020:02:24:14 +0000] "GET /pics/1583051337.jpg HTTP/1.1" 200 27301 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36"
