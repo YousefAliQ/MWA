@@ -1,6 +1,6 @@
 # MWA
 
-In this course I learn the Reactive Programming Architecture of SPA (Single Page Web Applications) along with all the necessary skills to build a full Modern Web Application. Technologies include: NodeJS, ExpressJS, TypeScript, Angular, Firebase and NoSQL databases (MongoDB). The course covered:
+In this course I learned the Reactive Programming Architecture of SPA (Single Page Web Applications) along with all the necessary skills to build a full Modern Web Application. Technologies include: NodeJS, ExpressJS, TypeScript, Angular, Firebase and NoSQL databases (MongoDB). The course covered the following:
 
  - How the C++ V8 engine and asynchronous code work in Node and the Node event loop.
  - How to structure your code for reuse and build Restful API using modules and ExpressJS.
